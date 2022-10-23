@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient(to right, #ffd89b, #19547b);
+    font-family: Gochi Hand;
+    color: black;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.nav {
+    height: 55px;
+    display: block;
+    text-align: justify;
+}
+
+.nav h1 {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 45px;
+}
+
+.nav ul li{
+    display: inline;
+    float: right;
+    margin-right: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    border-radius: 150px;
+    width: 5cm;
+    height: 5cm;
+    display: block;
+    margin-left: 20px;
+}
+
+button {
+    font-family: Gochi Hand;
+    height: 55px;
+    width: 110px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+button:hover {
+    opacity: .80;
+}
+
+button:active {
+    opacity: .50;
+}
+
+.intro {
+    display: flexbox;
+    flex-direction: row;
+    width: 350px;
+}
+
+.intro h2 {
+    margin-left: 55px;
+}
+
+.intro p {
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
