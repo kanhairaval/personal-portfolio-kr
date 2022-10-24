@@ -33,7 +33,7 @@ body {
     font-style: italic;
 }
 
-img {
+.me {
     border-radius: 150px;
     width: 5cm;
     height: 5cm;
@@ -45,7 +45,7 @@ button {
     font-family: Gochi Hand;
     height: 55px;
     width: 110px;
-    background-color: aquamarine;
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
     border: none;
     border-radius: 5px;
     font-size: 25px;
@@ -75,4 +75,8 @@ button:active {
     padding-left: 20px;
     font-size: 20px;
     text-align: justify;
+}
+
+.setup {
+    float: right;
 }
