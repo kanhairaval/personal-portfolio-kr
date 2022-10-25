@@ -111,7 +111,7 @@ h2 {
 .prework {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 95%;
     margin-left: 5px;
     margin-bottom: 20px;
     height: 540px;
@@ -150,7 +150,7 @@ h2 {
 .horiseon {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 95%;
     margin-left: 10px;
     margin-right: 20px;
     margin-top: 30px;
@@ -192,7 +192,7 @@ h2 {
 .youtube {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 95%;
     margin-left: 5px;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -227,4 +227,30 @@ h2 {
 .gettouch {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.twitter {
+    border-radius: 35px;
+    margin-left: 350px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.instagram {
+    border-radius: 35px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+}
+
+.instagram:hover {
+    transform: scale(1.1);
 }
