@@ -254,3 +254,7 @@ h2 {
 .instagram:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 768px) {
+    display: block-size: .firstpage, .secondpage, .thirdpage
+}
