@@ -256,19 +256,19 @@ h2 {
 }
 
 @media (max-width: 750px) {
-  .video-grid {
+  .firstpage {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
-  .video-grid {
+  .secondpage {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 1000px) {
-  .video-grid {
+  .thirdpage {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
